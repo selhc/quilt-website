@@ -8,53 +8,35 @@ import backgroundImage from '@/images/background.jpg'
 
 const schedule = [
   {
-    date: 'April 4',
-    dateTime: '2022-04-04',
+    date: 'July 11th',
+    dateTime: '2022-07-11',
     summary:
-      'The first day of the conference is focused on dark patterns for ecommerce.',
+      "Our first meeting will be focused on <a href='https://carequality.org'>Carequality</a> and <a href='https://www.commonwellalliance.org'>Commonwell</a>.",
     timeSlots: [
       {
-        name: 'Steven McHail',
-        description: 'Not so one-time payments',
+        name: 'Brief Introductions',
+        description: "Which Actor you represent and what is the status of your Actor's interoperability capability?",
         start: '9:00AM',
+        end: '9:15AM',
+      },
+      {
+        name: "National HIE's",
+        description: "Level of Commonwell and Carequaltiy support within each actor.",
+        start: '9:15AM',
+        end: '9:30AM',
+      },
+      {
+        name: "Information blocking exceptions",
+        description: "Review the information blocking exceptions and discuss why these should be special cased with default open",
+        start: '9:30AM',
         end: '10:00AM',
       },
       {
-        name: 'Jaquelin Isch',
-        description: 'The finer print',
+        name: "Enumerate barriers for full interoperability for each Actor",
+        description: "Discussion of barriers",
         start: '10:00AM',
-        end: '11:00AM',
-      },
-      {
-        name: 'Dianne Guilianelli',
-        description: 'Post-purchase blackmail',
-        start: '11:00AM',
-        end: '12:00PM',
-      },
-      {
-        name: 'Lunch',
-        description: null,
-        start: '12:00PM',
-        end: '1:00PM',
-      },
-      {
-        name: 'Ronni Cantadore',
-        description: 'Buy or die',
-        start: '1:00PM',
-        end: '2:00PM',
-      },
-      {
-        name: 'Erhart Cockrin',
-        description: 'In-person cancellation',
-        start: '2:00PM',
-        end: '3:00PM',
-      },
-      {
-        name: 'Parker Johnson',
-        description: 'The pay/cancel switcheroo',
-        start: '3:00PM',
-        end: '4:00PM',
-      },
+        end: '10:00AM',
+      }
     ],
   },
   {
