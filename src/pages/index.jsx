@@ -5,23 +5,23 @@ import { Header } from '@/components/Header'
 import { Hero } from '@/components/Hero'
 import { Newsletter } from '@/components/Newsletter'
 import { Schedule } from '@/components/Schedule'
-import { Speakers } from '@/components/Speakers'
+import { Members } from '@/components/Members'
 import { Sponsors } from '@/components/Sponsors'
 
 export default function Home() {
   return (
     <>
       <Head>
-        <title>DeceptiConf - A community-driven design conference</title>
+        <title>QUILT - QUint-cities healthcare Interoperability Logistics Taskforce</title>
         <meta
           name="description"
-          content="At DeceptiConf you’ll learn about the latest dark patterns being developed to trick even the smartest visitors, and you’ll learn how to deploy them without ever being detected."
+          content="Learn about the QUint-cities healthcare Interoperability Logistics Taskforce."
         />
       </Head>
       <Header />
       <main>
         <Hero />
-        <Speakers />
+        <Members />
         <Schedule />
         <Sponsors />
         <Newsletter />

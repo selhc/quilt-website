@@ -177,8 +177,8 @@ export function Speakers() {
 
   return (
     <section
-      id="speakers"
-      aria-labelledby="speakers-title"
+      id="members"
+      aria-labelledby="members-title"
       className="py-20 sm:py-32"
     >
       <ImageClipPaths id={id} />
@@ -188,11 +188,10 @@ export function Speakers() {
             id="speakers-title"
             className="font-display text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl"
           >
-            Speakers
+            Members
           </h2>
           <p className="mt-4 font-display text-2xl tracking-tight text-blue-900">
-            Learn from the experts on the cutting-edge of deception at the most
-            sinister companies.
+            Individuals working to improve the state of healthcare data interoperability as members of the taskforce.
           </p>
         </div>
         <Tab.Group
