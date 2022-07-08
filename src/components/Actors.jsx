@@ -25,7 +25,7 @@ export function Actors() {
           Current institutions represented by our taskforce members.
         </h2>
         <div className="mx-auto mt-20 grid max-w-max grid-cols-1 place-content-center gap-y-12 gap-x-32 sm:grid-cols-3 md:gap-x-16 lg:gap-x-32">
-          {actors.map((sponsor) => (
+          {actors.map((actor) => (
             <div
               key={actor.name}
               className="flex items-center justify-center"
