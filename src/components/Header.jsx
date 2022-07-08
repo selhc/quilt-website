@@ -14,6 +14,7 @@ export function Header() {
           <div className="mx-auto flex items-center gap-4 px-4">
             <p>Next Meeting</p>
             <DiamondIcon className="h-1.5 w-1.5 overflow-visible fill-current stroke-current" />
+            <p>
               <time dateTime="2022-07-11">11th of July, 2022</time>
             </p>
             <DiamondIcon className="h-1.5 w-1.5 overflow-visible fill-current stroke-current" />
