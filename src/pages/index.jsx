@@ -6,7 +6,7 @@ import { Hero } from '@/components/Hero'
 import { Newsletter } from '@/components/Newsletter'
 import { Schedule } from '@/components/Schedule'
 import { Members } from '@/components/Members'
-import { Sponsors } from '@/components/Sponsors'
+import { Actors } from '@/components/Actors'
 
 export default function Home() {
   return (
@@ -23,7 +23,7 @@ export default function Home() {
         <Hero />
         <Members />
         <Schedule />
-        <Sponsors />
+        <Actors />
         <Newsletter />
       </main>
       <Footer />

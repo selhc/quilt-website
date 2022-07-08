@@ -156,7 +156,7 @@ function ImageClipPaths({ id, ...props }) {
   )
 }
 
-export function Speakers() {
+export function Members() {
   let id = useId()
   let [tabOrientation, setTabOrientation] = useState('horizontal')
 
