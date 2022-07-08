@@ -50,6 +50,11 @@ function collectHeadings(nodes, slugify = slugifyWithCounter()) {
 
 export default function App({ Component, pageProps }) {
   console.log(pageProps);
+  if (pageProps === {}) {
+  // Main Page
+    return(<Component {...pageProps} />)
+    } else { 
+    
   let title = pageProps.markdoc?.frontmatter.title
 
   let pageTitle =
@@ -73,4 +78,5 @@ export default function App({ Component, pageProps }) {
       </Layout>
     </>
   )
+  }
 }
