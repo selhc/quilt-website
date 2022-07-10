@@ -6,136 +6,116 @@ import clsx from 'clsx'
 import { Container } from '@/components/Container'
 import { DiamondIcon } from '@/components/DiamondIcon'
 import andrewGreeneImage from '@/images/avatars/andrew-greene.jpg'
-import cathleneBurrageImage from '@/images/avatars/cathlene-burrage.jpg'
-import damarisKimuraImage from '@/images/avatars/damaris-kimura.jpg'
 import dianneGuilianelliImage from '@/images/avatars/dianne-guilianelli.jpg'
-import erhartCockrinImage from '@/images/avatars/erhart-cockrin.jpg'
-import giordanoSagucioImage from '@/images/avatars/giordano-sagucio.jpg'
-import gordonSandersonImage from '@/images/avatars/gordon-sanderson.jpg'
-import heatherTerryImage from '@/images/avatars/heather-terry.jpg'
 import ibrahimFraschImage from '@/images/avatars/ibrahim-frasch.jpg'
 import jaquelinIschImage from '@/images/avatars/jaquelin-isch.jpg'
-import kimberlyParsonsImage from '@/images/avatars/kimberly-parsons.jpg'
-import parkerJohnsonImage from '@/images/avatars/parker-johnson.jpg'
-import piersWilkinsImage from '@/images/avatars/piers-wilkins.jpg'
-import richardAstley from '@/images/avatars/richard-astley.jpg'
-import rinaldoBeynonImage from '@/images/avatars/rinaldo-beynon.jpg'
-import ronniCantadoreImage from '@/images/avatars/ronni-cantadore.jpg'
 import stevenMchailImage from '@/images/avatars/steven-mchail.jpg'
-import waylonHydenImage from '@/images/avatars/waylon-hyden.jpg'
 
-const days = [
+
+const actors = [
   {
-    name: 'Opening Day',
-    date: 'April 4',
-    dateTime: '2022-04-04',
-    speakers: [
+    name: 'Schweitzer Engineering Laboratories',
+    location: 'Pullman, WA',
+    members: [
       {
-        name: 'Steven McHail',
-        role: 'Designer at Globex Corporation',
+        name: 'Keith Gautreaux',
+        role: 'SEL Health Clinic Medical Director',
         image: stevenMchailImage,
       },
       {
-        name: 'Jaquelin Isch',
-        role: 'UX Design at InGen',
+        name: 'Kirstin Gehring',
+        role: 'SEL Health Clinic Office Manager',
         image: jaquelinIschImage,
       },
       {
-        name: 'Dianne Guilianelli',
-        role: 'General Manager at Initech',
+        name: 'Dwan Spiess-Brown',
+        role: 'SEL Health Clinic Care Coordinator',
         image: dianneGuilianelliImage,
-      },
-      {
-        name: 'Ronni Cantadore',
-        role: 'Design Engineer at Weyland-Yutani',
-        image: ronniCantadoreImage,
-      },
-      {
-        name: 'Erhart Cockrin',
-        role: 'Product Lead at Cyberdyne Systems',
-        image: erhartCockrinImage,
-      },
-      {
-        name: 'Parker Johnson',
-        role: 'UI Designer at MomCorp',
-        image: parkerJohnsonImage,
-      },
-    ],
+      }
+    ]
   },
   {
-    name: 'Speakers & Workshops',
-    date: 'April 5',
-    dateTime: '2022-04-05',
-    speakers: [
+    name: 'Pullman Regional Hospital',
+    location: 'Pullman, WA',
+    members: [
       {
-        name: 'Damaris Kimura',
-        role: 'Senior Engineer at OCP',
-        image: damarisKimuraImage,
-      },
-      {
-        name: 'Ibrahim Frasch',
-        role: 'Programmer at Umbrella Corp',
-        image: ibrahimFraschImage,
-      },
-      {
-        name: 'Cathlene Burrage',
-        role: 'Frontend Developer at Buy n Large',
-        image: cathleneBurrageImage,
-      },
-      {
-        name: 'Rinaldo Beynon',
-        role: 'Data Scientist at Rekall',
-        image: rinaldoBeynonImage,
-      },
-      {
-        name: 'Waylon Hyden',
-        role: 'DevOps at RDA Corporation',
-        image: waylonHydenImage,
-      },
-      {
-        name: 'Giordano Sagucio',
-        role: 'Game Developer at Soylent Corp',
-        image: giordanoSagucioImage,
-      },
-    ],
+        name: 'Cathy Murphy',
+        role: 'Designer at Globex Corporation',
+        image: jaquelinIschImage,
+      }
+    ]
   },
   {
-    name: 'Interviews',
-    date: 'April 6',
-    dateTime: '2022-04-06',
-    speakers: [
+    name: 'Gritman Medical Center',
+    location: 'Moscow, ID',
+    members: [
       {
-        name: 'Andrew Greene',
-        role: 'Frontend Developer at Ultratech',
-        image: andrewGreeneImage,
-      },
-      {
-        name: 'Heather Terry',
-        role: 'Backend Developer at Xanatos Enterprises',
-        image: heatherTerryImage,
-      },
-      {
-        name: 'Piers Wilkins',
-        role: 'Full stack Developer at BiffCo',
-        image: piersWilkinsImage,
-      },
-      {
-        name: 'Gordon Sanderson',
-        role: 'Mobile Developer at Cobra Industries',
-        image: gordonSandersonImage,
-      },
-      {
-        name: 'Kimberly Parsons',
-        role: 'Game Developer at Tyrell Corporation',
-        image: kimberlyParsonsImage,
-      },
-      {
-        name: 'Richard Astley',
-        role: 'CEO at Roll Out',
-        image: richardAstley,
-      },
-    ],
+        name: 'Kris Peterson',
+        role: 'Interim Director, Information Systems',
+        image: stevenMchailImage,
+      }
+    ]
   },
+  {
+    name: 'Whitman Hospital & Medical Clinics',
+    location: 'Colfax, WA',
+    members: [
+      {
+        name: 'Navin Adhikary',
+        role: 'Clinical Analyst Lead',
+        image: stevenMchailImage,
+      }
+    ]
+  },
+  {
+    name: 'Catalyst Medical Group',
+    location: 'Clarkston, WA',
+    members: [
+      {
+        name: 'Lisa Genzer',
+        role: 'Director of Performance Improvement',
+        image: dianneGuilianelliImage,
+      }
+    ]
+  },
+  {
+    name: 'St. Joseph Regional Medical Center',
+    location: 'Lewiston, ID',
+    members: [
+      {
+        name: 'Aaron Poole'
+        role: 'Chief Financial Officer',
+        image: stevenMchailImage
+      }, 
+      {
+        name: 'Sally Briney',
+        role: 'Unknown',
+        image: dianneGuilianelliImage,
+      }
+    ]
+  },
+  {
+    name: 'Tri-State Memorial Hospital',
+    location: 'Clarkston, WA',
+    members: [
+      {
+        name: 'Deb Carpenter',
+        role: 'Chief Information Officer',
+        image: dianneGuilianelliImage,
+      }
+    ]
+  },
+  {
+    name: 'Palouse Medical',
+    location: 'Pullman, WA',
+    members: [
+      {
+        name: 'Theresa Kwate',
+        role: 'Executive Director',
+        image: dianneGuilianelliImage,
+      }
+    ]
+  }
 ]
 
 function ImageClipPaths({ id, ...props }) {
@@ -185,7 +165,7 @@ export function Members() {
       <Container>
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2
-            id="speakers-title"
+            id="members-title"
             className="font-display text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl"
           >
             Members
@@ -203,12 +183,12 @@ export function Members() {
             <div className="absolute bottom-0 top-2 left-0.5 hidden w-px bg-slate-200 lg:block" />
             <Tab.List className="grid auto-cols-auto grid-flow-col justify-start gap-x-8 gap-y-10 whitespace-nowrap px-4 sm:mx-auto sm:max-w-2xl sm:grid-cols-3 sm:px-0 sm:text-center lg:grid-flow-row lg:grid-cols-1 lg:text-left">
               {({ selectedIndex }) =>
-                days.map((day, dayIndex) => (
-                  <div key={day.dateTime} className="relative lg:pl-8">
+                actors.map((actor, actorIndex) => (
+                  <div key={actor.name} className="relative lg:pl-8">
                     <DiamondIcon
                       className={clsx(
                         'absolute top-[0.5625rem] left-[-0.5px] hidden h-1.5 w-1.5 overflow-visible lg:block',
-                        dayIndex === selectedIndex
+                        actorIndex === selectedIndex
                           ? 'fill-blue-600 stroke-blue-600'
                           : 'fill-transparent stroke-slate-400'
                       )}
@@ -217,21 +197,17 @@ export function Members() {
                       <div
                         className={clsx(
                           'font-mono text-sm',
-                          dayIndex === selectedIndex
+                          actorIndex === selectedIndex
                             ? 'text-blue-600'
                             : 'text-slate-500'
                         )}
                       >
                         <Tab className="[&:not(:focus-visible)]:focus:outline-none">
                           <span className="absolute inset-0" />
-                          {day.name}
+                          {actor.name}
                         </Tab>
                       </div>
-                      <time
-                        dateTime={day.dateTime}
-                        className="mt-1.5 block text-2xl font-semibold tracking-tight text-blue-900"
-                      >
-                        {day.date}
+                        {actor.location}
                       </time>
                     </div>
                   </div>
@@ -240,14 +216,14 @@ export function Members() {
             </Tab.List>
           </div>
           <Tab.Panels className="lg:col-span-3">
-            {days.map((day) => (
+            {actors.map((actor) => (
               <Tab.Panel
                 key={day.dateTime}
                 className="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 sm:gap-y-16 md:grid-cols-3 [&:not(:focus-visible)]:focus:outline-none"
                 unmount={false}
               >
-                {day.speakers.map((speaker, speakerIndex) => (
-                  <div key={speakerIndex}>
+                {actor.members.map((member, memberIndex) => (
+                  <div key={memberIndex}>
                     <div className="group relative h-[17.5rem] transform overflow-hidden rounded-4xl">
                       <div
                         className={clsx(
@@ -256,16 +232,16 @@ export function Members() {
                             'border-blue-300',
                             'border-indigo-300',
                             'border-sky-300',
-                          ][speakerIndex % 3]
+                          ][memberIndex % 3]
                         )}
                       />
                       <div
                         className="absolute inset-0 bg-indigo-50"
-                        style={{ clipPath: `url(#${id}-${speakerIndex % 3})` }}
+                        style={{ clipPath: `url(#${id}-${memberIndex % 3})` }}
                       >
                         <Image
                           className="absolute inset-0 h-full w-full object-cover transition duration-300 group-hover:scale-110"
-                          src={speaker.image}
+                          src={member.image}
                           alt=""
                           priority
                           sizes="(min-width: 1280px) 17.5rem, (min-width: 1024px) 25vw, (min-width: 768px) 33vw, (min-width: 640px) 50vw, 100vw"
@@ -273,10 +249,10 @@ export function Members() {
                       </div>
                     </div>
                     <h3 className="mt-8 font-display text-xl font-bold tracking-tight text-slate-900">
-                      {speaker.name}
+                      {member.name}
                     </h3>
                     <p className="mt-1 text-base tracking-tight text-slate-500">
-                      {speaker.role}
+                      {member.role}
                     </p>
                   </div>
                 ))}
