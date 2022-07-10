@@ -208,7 +208,6 @@ export function Members() {
                         </Tab>
                       </div>
                         {actor.location}
-                      </time>
                     </div>
                   </div>
                 ))
