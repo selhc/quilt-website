@@ -83,7 +83,7 @@ const actors = [
     location: 'Lewiston, ID',
     members: [
       {
-        name: 'Aaron Poole'
+        name: 'Aaron Poole',
         role: 'Chief Financial Officer',
         image: stevenMchailImage
       }, 
