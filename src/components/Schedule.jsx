@@ -40,53 +40,29 @@ const schedule = [
     ],
   },
   {
-    date: 'April 5',
-    dateTime: '2022-04-05',
+    date: 'July 25',
+    dateTime: '2022-07-25',
     summary:
-      'Next we spend the day talking about deceiving people with technology.',
+      "Second meeting focused on barriers to interoperability identified for each Actor",
     timeSlots: [
       {
-        name: 'Damaris Kimura',
-        description: 'The invisible card reader',
+        name: 'Update on Carequality and Commonwell support',
+        description: 'National HIE\'s',
         start: '9:00AM',
-        end: '10:00AM',
+        end: '9:15AM',
       },
       {
-        name: 'Ibrahim Frasch',
-        description: 'Stealing fingerprints',
-        start: '10:00AM',
-        end: '11:00AM',
+        name: 'Other barriers to interoperability',
+        description: 'Technical discussion',
+        start: '9:15AM',
+        end: '9:45AM',
       },
       {
-        name: 'Cathlene Burrage',
-        description: 'Voting machines',
-        start: '11:00AM',
-        end: '12:00PM',
-      },
-      {
-        name: 'Lunch',
-        description: null,
-        start: '12:00PM',
-        end: '1:00PM',
-      },
-      {
-        name: 'Rinaldo Beynon',
-        description: 'Blackhat SEO that works',
-        start: '1:00PM',
-        end: '2:00PM',
-      },
-      {
-        name: 'Waylon Hyden',
-        description: 'Turning your audience into a botnet',
-        start: '2:00PM',
-        end: '3:00PM',
-      },
-      {
-        name: 'Giordano Sagucio',
-        description: 'Fly phishing',
-        start: '3:00PM',
-        end: '4:00PM',
-      },
+        name: 'Discuss missing media kits',
+        description: 'Website review?',
+        start: '9:45AM',
+        end: '10:00AM'
+      }
     ],
   },
   {
@@ -211,7 +187,7 @@ function DaySummary({ day }) {
         <time dateTime={day.dateTime}>{day.date}</time>
       </h3>
       <p className="mt-1.5 text-base tracking-tight text-blue-900">
-        {day.summary}
+        <span dangerouslySetInnerHTML={{day.summary}} />
       </p>
     </>
   )
