@@ -1,6 +1,6 @@
 export function Logo(props) {
   return (
-  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="500" height="140" viewBox="0, 0, 500, 140" {...props}>
+  <svg class="h-12 w-auto" viewBox="0, 0, 183, 48" {...props}>
   <defs>
     <linearGradient id="Gradient_1" gradientUnits="userSpaceOnUse" x1="56.135" y1="21.272" x2="120.141" y2="21.272" gradientTransform="matrix(0.797, 0.604, -0.604, 0.797, 0, 0)">
       <stop offset="0" stop-color="#76C6DA"/>
