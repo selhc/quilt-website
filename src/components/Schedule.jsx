@@ -187,7 +187,7 @@ function DaySummary({ day }) {
         <time dateTime={day.dateTime}>{day.date}</time>
       </h3>
       <p className="mt-1.5 text-base tracking-tight text-blue-900">
-        <span dangerouslySetInnerHTML={{day.summary}} />
+        <span dangerouslySetInnerHTML={{__html: day.summary}} />
       </p>
     </>
   )
@@ -253,13 +253,10 @@ export function Schedule() {
       <Container className="relative z-10">
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-4xl lg:pr-24">
           <h2 className="font-display text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl">
-            Our three day schedule is jam-packed with brilliant, creative, evil
-            geniuses.
+            Meeting Agendas
           </h2>
           <p className="mt-4 font-display text-2xl tracking-tight text-blue-900">
-            The worst people in our industry giving the best talks you’ve ever
-            seen. Nothing will be recorded and every attendee has to sign an NDA
-            to watch the talks.
+            The taskforce strives for transparency in our meetings and actions. A summary of our meeting agendas by date of meeting.
           </p>
         </div>
       </Container>
