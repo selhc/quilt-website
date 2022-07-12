@@ -11,7 +11,7 @@ const schedule = [
     date: 'July 11th',
     dateTime: '2022-07-11',
     summary:
-      "Our first meeting will be focused on <a href='https://carequality.org'>Carequality</a> and <a href='https://www.commonwellalliance.org'>Commonwell</a>.",
+      "Our first meeting will be focused on <a class='underline underline-offset-8' href='https://carequality.org'>Carequality</a> and <a class='underline underline-offset-8' href='https://www.commonwellalliance.org'>Commonwell</a>.",
     timeSlots: [
       {
         name: 'Brief Introductions',
