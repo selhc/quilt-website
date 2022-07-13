@@ -10,6 +10,7 @@ import dianneGuilianelliImage from '@/images/avatars/dianne-guilianelli.jpg'
 import ibrahimFraschImage from '@/images/avatars/ibrahim-frasch.jpg'
 import jaquelinIschImage from '@/images/avatars/jaquelin-isch.jpg'
 import stevenMchailImage from '@/images/avatars/steven-mchail.jpg'
+import aaronPooleImage from '@/images/avatars/aaron-poole.jpg'
 
 
 const actors = [
@@ -85,7 +86,7 @@ const actors = [
       {
         name: 'Aaron Poole',
         role: 'Chief Financial Officer',
-        image: stevenMchailImage
+        image: aaronPooleImage
       }, 
       {
         name: 'Sally Briney',
