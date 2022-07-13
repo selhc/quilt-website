@@ -8,6 +8,7 @@ import logoStaticKit from '@/images/logos/statickit.svg'
 import logoTransistor from '@/images/logos/transistor.svg'
 import logoTuple from '@/images/logos/tuple.svg'
 import logoPrh from '@/images/logos/prh.png'
+import logoSjrmc from '/images/logos/sjrmc.png'
 
 const actors = [
   { name: 'Transistor', logo: logoTransistor },
@@ -16,7 +17,8 @@ const actors = [
   { name: 'Mirage', logo: logoMirage },
   { name: 'Laravel', logo: logoLaravel },
   { name: 'Statamic', logo: logoStatamic },
-  { name: 'Pullman Regional Hospital', logo: logoPrh }
+  { name: 'Pullman Regional Hospital', logo: logoPrh },
+  { name: 'St. Joseph\'s Regional Medical Center', logo: logoSjrmc }
 ]
 
 export function Actors() {
