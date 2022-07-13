@@ -41,7 +41,8 @@ export function Newsletter() {
                 Get updates on meetings and projects.
               </p>
             </div>
-            <form name="contact" action="/success" method="POST" data-netlify="true">
+            <form name="contact" action="/success" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+                  <input type="hidden" name="bot-field" />
                   <input type="hidden" name="form-name" value="contact" />
               <h3 className="text-lg font-semibold tracking-tight text-blue-900">
                 Sign up to our newsletter <span aria-hidden="true">&darr;</span>
@@ -56,7 +57,7 @@ export function Newsletter() {
                   className="-my-2.5 flex-auto bg-transparent pl-6 pr-2.5 text-base text-slate-900 placeholder:text-slate-400 focus:outline-none"
                 />
                 <Button type="submit">
-                  <span className="sr-only sm:not-sr-only">Sign up today</span>
+                  <span className="sr-only sm:not-sr-only">Subscribe</span>
                   <span className="sm:hidden">
                     <ArrowRightIcon className="h-6 w-6" />
                   </span>
