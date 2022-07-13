@@ -10,6 +10,8 @@ import dianneGuilianelliImage from '@/images/avatars/dianne-guilianelli.jpg'
 import ibrahimFraschImage from '@/images/avatars/ibrahim-frasch.jpg'
 import jaquelinIschImage from '@/images/avatars/jaquelin-isch.jpg'
 import stevenMchailImage from '@/images/avatars/steven-mchail.jpg'
+import keithGautreauxImage from '@/images/avatars/keith-gautreaux.jpg'
+import kirstinGehringImage from '@/images/avatars/kirstin-gehring.jpg'
 import aaronPooleImage from '@/images/avatars/aaron-poole.jpg'
 
 
@@ -21,17 +23,12 @@ const actors = [
       {
         name: 'Keith Gautreaux',
         role: 'SEL Health Clinic Medical Director',
-        image: stevenMchailImage,
+        image: keithGautreauxImage,
       },
       {
         name: 'Kirstin Gehring',
         role: 'SEL Health Clinic Office Manager',
-        image: jaquelinIschImage,
-      },
-      {
-        name: 'Dwan Spiess-Brown',
-        role: 'SEL Health Clinic Care Coordinator',
-        image: dianneGuilianelliImage,
+        image: kirstinGehringImage,
       }
     ]
   },
