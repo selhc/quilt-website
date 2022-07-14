@@ -41,19 +41,19 @@ function classNames(...classes) {
 
 export function Header() {
   return (
-    <header className="relative z-50 pb-11 lg:pt-11">
-    <Popover className="z-0 relative">
+    <header className="relative z-50 pb-11">
+    <Popover className="z-0 relative mb-8">
       {({ open }) => (
         <>
           <div className="relative z-10 bg-white shadow">
-            <div className="max-w-7xl mx-auto flex px-4 py-6 sm:px-6 lg:px-8">
+            <div className="max-w-7xl mx-auto flex justify-end px-4 py-6 sm:px-6 lg:px-8">
               <Popover.Button
                 className={classNames(
                   open ? 'text-gray-900' : 'text-gray-500',
                   'group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500'
                 )}
               >
-                <span>Solutions</span>
+                <span>Explore</span>
                 <ChevronDownIcon
                   className={classNames(
                     open ? 'text-gray-600' : 'text-gray-400',
