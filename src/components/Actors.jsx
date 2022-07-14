@@ -5,8 +5,8 @@ import logoPrh from '@/images/logos/prh.png'
 import logoSjrmc from '@/images/logos/sjrmc.png'
 
 const actors = [
-  { name: 'Pullman Regional Hospital', logo: logoPrh },
-  { name: 'St. Joseph\'s Regional Medical Center', logo: logoSjrmc }
+  { name: 'Pullman Regional Hospital', logo: logoPrh, href: 'https://pullmanregional.org' },
+  { name: 'St. Joseph\'s Regional Medical Center', logo: logoSjrmc, href: 'https://sjrmc.org' }
 ]
 
 export function Actors() {
@@ -22,7 +22,9 @@ export function Actors() {
               key={actor.name}
               className="flex items-center justify-center"
             >
-              <Image src={actor.logo} alt={actor.name} unoptimized />
+              <a href={actor.href}>
+                <Image src={actor.logo} alt={actor.name} unoptimized />
+              </a>
             </div>
           ))}
         </div>
