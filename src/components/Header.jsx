@@ -50,7 +50,7 @@ export function Header() {
               <Popover.Button
                 className={classNames(
                   open ? 'text-gray-900' : 'text-gray-500',
-                  'group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500'
+                  'group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500'
                 )}
               >
                 <span>Explore</span>
@@ -85,7 +85,7 @@ export function Header() {
                     >
                       <div className="flex md:h-full lg:flex-col">
                         <div className="flex-shrink-0">
-                          <div className="inline-flex items-center justify-center h-10 w-10 rounded-md bg-indigo-500 text-white sm:h-12 sm:w-12">
+                          <div className="inline-flex items-center justify-center h-10 w-10 rounded-md bg-blue-500 text-white sm:h-12 sm:w-12">
                             <item.icon className="h-6 w-6" aria-hidden="true" />
                           </div>
                         </div>
@@ -94,7 +94,7 @@ export function Header() {
                             <p className="text-base font-medium text-gray-900">{item.name}</p>
                             <p className="mt-1 text-sm text-gray-500">{item.description}</p>
                           </div>
-                          <p className="mt-2 text-sm font-medium text-indigo-600 lg:mt-4">
+                          <p className="mt-2 text-sm font-medium text-blue-600 lg:mt-4">
                             Learn more <span aria-hidden="true">&rarr;</span>
                           </p>
                         </div>
@@ -139,7 +139,7 @@ export function Header() {
           </div>
         </div>
         <div className="hidden sm:mt-10 sm:flex lg:mt-0 lg:grow lg:basis-0 lg:justify-end">
-          <Button href="#">Request to Join</Button>
+          <Button href="#footer">Request to Join</Button>
         </div>
       </Container>
     </header>

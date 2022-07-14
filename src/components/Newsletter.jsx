@@ -38,14 +38,14 @@ export function Newsletter() {
                 Stay up to date
               </p>
               <p className="mt-4 text-lg tracking-tight text-blue-900">
-                Get updates on meetings and projects.
+                Get updates on meetings and projects or request to join the group.
               </p>
             </div>
             <form name="contact" action="/success" method="POST" netlify-honeypot="bot-field" data-netlify="true">
                   <input type="hidden" name="bot-field" />
                   <input type="hidden" name="form-name" value="contact" />
               <h3 className="text-lg font-semibold tracking-tight text-blue-900">
-                Sign up to our newsletter <span aria-hidden="true">&darr;</span>
+                Sign up to updates <span aria-hidden="true">&darr;</span>
               </h3>
               <div className="mt-5 flex rounded-3xl bg-white py-2.5 pr-2.5 shadow-xl shadow-blue-900/5 focus-within:ring-2 focus-within:ring-blue-900">
                 <input
@@ -57,7 +57,7 @@ export function Newsletter() {
                   className="-my-2.5 flex-auto bg-transparent pl-6 pr-2.5 text-base text-slate-900 placeholder:text-slate-400 focus:outline-none"
                 />
                 <Button type="submit">
-                  <span className="sr-only sm:not-sr-only">Subscribe</span>
+                  <span className="sr-only sm:not-sr-only">Send</span>
                   <span className="sm:hidden">
                     <ArrowRightIcon className="h-6 w-6" />
                   </span>
