@@ -13,26 +13,28 @@ import {
   PlayIcon,
   ShieldCheckIcon,
   ViewGridIcon,
+  UserGroupIcon
+  DocumentTextIcon
 } from '@heroicons/react/outline'
 
 const solutions = [
   {
-    name: 'Analytics',
-    description: 'Get a better understanding of where your traffic is coming from.',
-    href: '#',
-    icon: ChartBarIcon,
+    name: 'Meetings',
+    description: 'Transcripts and recordings of QUILT meetings.',
+    href: 'https://meetings.quilt.healthcare',
+    icon: UserGroupIcon,
   },
   {
-    name: 'Engagement',
-    description: 'Speak directly to your customers in a more meaningful way.',
-    href: '#',
-    icon: CursorClickIcon,
+    name: 'Documentation',
+    description: 'Documentation resources for interoperability technical implementations.',
+    href: 'https://docs.quilt.healthcare',
+    icon: DocumentTextIcon,
   }
 ]
 const callsToAction = [
-  { name: 'Watch Demo', href: '#', icon: PlayIcon },
-  { name: 'View All Products', href: '#', icon: CheckCircleIcon },
-  { name: 'Contact Sales', href: '#', icon: PhoneIcon },
+  { name: 'View Latest Meeting', href: 'https://meetings.quilt.healthcare/latest', icon: PlayIcon },
+  { name: 'Learn About Initiatives', href: '#', icon: CheckCircleIcon },
+  { name: 'Contact Taskforce', href: '#', icon: PhoneIcon },
 ]
 
 function classNames(...classes) {
