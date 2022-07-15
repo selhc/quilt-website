@@ -3,8 +3,10 @@ import Image from 'next/future/image'
 import { Container } from '@/components/Container'
 import logoPrh from '@/images/logos/prh.png'
 import logoSjrmc from '@/images/logos/sjrmc.png'
+import logoSEL from '@/images/logos/sel.jpg'
 
 const actors = [
+  { name: 'Schweitzer Engineering Laboratories Health Clinic', logo: logoSEL, href='https://selhealthclinic.com' },
   { name: 'Pullman Regional Hospital', logo: logoPrh, href: 'https://pullmanregional.org' },
   { name: 'St. Joseph\'s Regional Medical Center', logo: logoSjrmc, href: 'https://sjrmc.org' }
 ]

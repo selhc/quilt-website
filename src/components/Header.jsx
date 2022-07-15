@@ -13,7 +13,7 @@ import {
   PlayIcon,
   ShieldCheckIcon,
   ViewGridIcon,
-  UserGroupIcon
+  UserGroupIcon,
   DocumentTextIcon
 } from '@heroicons/react/outline'
 
