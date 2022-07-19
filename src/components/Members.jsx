@@ -13,6 +13,7 @@ import stevenMchailImage from '@/images/avatars/steven-mchail.jpg'
 import keithGautreauxImage from '@/images/avatars/keith-gautreaux.jpg'
 import kirstinGehringImage from '@/images/avatars/kirstin-gehring.jpg'
 import aaronPooleImage from '@/images/avatars/aaron-poole.jpg'
+import lisaGenzerImage from '@/images/avatars/lisa-genzer.jpg'
 
 
 const actors = [
@@ -72,7 +73,7 @@ const actors = [
       {
         name: 'Lisa Genzer',
         role: 'Director of Performance Improvement',
-        image: dianneGuilianelliImage,
+        image: lisaGenzerImage,
       }
     ]
   },
