@@ -27,7 +27,7 @@ export function Hero() {
           </h1>
           <div className="mt-6 space-y-6 font-display text-2xl tracking-tight text-blue-900">
             <p>
-              We are a group of likeminded individuals at healthcare entities in Eastern Washington and North-central Idaho working together to bring healthcare data exchange to our region to improve continuity of care.
+              We are a group of likeminded individuals at healthcare entities in Eastern Washington and North-Central Idaho working together to bring healthcare data exchange to our region to improve continuity of care.
             </p>
           </div>
           <Button href="#" className="mt-10 w-full sm:hidden">
