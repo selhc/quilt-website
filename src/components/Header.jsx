@@ -21,7 +21,7 @@ const solutions = [
   {
     name: 'Meetings',
     description: 'Transcripts and recordings of QUILT meetings.',
-    href: 'https://meetings.quilt.healthcare',
+    href: 'https://quilt-healthcare.gitbook.io/meetings',
     icon: UserGroupIcon,
   },
   {
