@@ -40,8 +40,8 @@ const schedule = [
     ],
   },
   {
-    date: 'July 25',
-    dateTime: '2022-07-25',
+    date: 'August 1st',
+    dateTime: '2022-08-01',
     summary:
       "Second meeting focused on barriers to interoperability identified for each Actor",
     timeSlots: [
@@ -52,7 +52,7 @@ const schedule = [
         end: '9:15AM',
       },
       {
-        name: 'Other barriers to interoperability',
+        name: 'SJRMC Update and USCDI discussion',
         description: 'Technical discussion',
         start: '9:15AM',
         end: '9:45AM',
