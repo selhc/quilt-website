@@ -68,7 +68,7 @@ const actors = [
   },
   {
     name: 'Catalyst Medical Group',
-    location: 'Clarkston, WA',
+    location: 'Lewiston, ID',
     members: [
       {
         name: 'Lisa Genzer',
