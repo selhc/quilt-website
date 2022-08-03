@@ -64,6 +64,38 @@ const schedule = [
         end: '10:00AM'
       }
     ]
+  },
+  {
+    date: 'August 15th',
+    dateTime: '2022-08-15',
+    summary:
+      "Third meeting focused on state HIE interoperability with National HIE's",
+    timeSlots: [
+      {
+        name: 'Update on IDHE integration with Carequality and Commonwell',
+        description: 'ID support for National HIE\'s',
+        start: '9:00AM',
+        end: '9:15AM',
+      },
+      {
+        name: 'Update on OneHealthPort integration with Carequality and Commonwell',
+        description: 'WA support for National HIE\'s',
+        start: '9:15AM',
+        end: '9:30AM',
+      },
+      {
+        name: 'Review Vendor/Actor Matrix',
+        description: 'What EHR\'s are in operation in which organizations',
+        start: '9:30AM',
+        end: '9:45AM'
+      },
+      {
+        name: 'Review CARES Act Timeline',
+        description: 'Milestones for interoperability requirements',
+        start: '9:45AM',
+        end: '10:00AM'
+      }
+    ]
   }
 ]
 
