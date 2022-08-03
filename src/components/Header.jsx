@@ -34,7 +34,7 @@ const solutions = [
 const callsToAction = [
   { name: 'View Latest Meeting', href: 'https://meetings.quilt.healthcare/meetings/recordings/july-11th-2022', icon: PlayIcon },
   { name: 'Learn About Initiatives', href: '#', icon: CheckCircleIcon },
-  { name: 'Contact Taskforce', href: '#', icon: PhoneIcon },
+  { name: 'Contact Taskforce', href: 'https://quilt.healthcare/#footer', icon: PhoneIcon },
 ]
 
 function classNames(...classes) {
