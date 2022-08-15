@@ -96,6 +96,38 @@ const schedule = [
         end: '10:00AM'
       }
     ]
+  },
+  {
+    date: 'August 29th',
+    dateTime: '2022-08-29',
+    summary:
+      "Fourth meeting focused on vendor costs",
+    timeSlots: [
+      {
+        name: 'Review Vendor/Actor Matrix for Carequality support',
+        description: 'Will vendors commit?',
+        start: '9:00AM',
+        end: '9:15AM',
+      },
+      {
+        name: 'Establish vendor cost quotes for interoperability support in compliance with the 21st Century Cures Act',
+        description: 'Vendor costs',
+        start: '9:15AM',
+        end: '9:30AM',
+      },
+      {
+        name: 'Review Vendor/Actor Matrix',
+        description: 'What EHR\'s are in operation in which organizations',
+        start: '9:30AM',
+        end: '9:45AM'
+      },
+      {
+        name: 'Decide whether to file an information blocking complaint against any vendor charging for interoperability implementation',
+        description: 'None of us is as gullible as all of us!',
+        start: '9:45AM',
+        end: '10:00AM'
+      }
+    ]
   }
 ]
 
