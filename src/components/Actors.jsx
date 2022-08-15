@@ -5,7 +5,7 @@ import logoPrh from '@/images/logos/prh.png'
 import logoSjrmc from '@/images/logos/sjrmc.png'
 import logoSEL from '@/images/logos/sel.png'
 import logoCatalyst from '@/images/logos/catalyst.png'
-import logoPalouseMedical from '@/images/logos/palouse-medical.jpg'
+import logoPalouseMedical from '@/images/logos/palouse-medical.png'
 
 const actors = [
   { name: 'Schweitzer Engineering Laboratories Health Clinic', logo: logoSEL, href: 'https://selhealthclinic.com' },
