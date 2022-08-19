@@ -6,7 +6,7 @@ import clsx from 'clsx'
 import { Container } from '@/components/Container'
 import backgroundImage from '@/images/background.jpg'
 
-const schedule = [
+let schedule = [
   {
     date: 'July 11th',
     dateTime: '2022-07-11',
@@ -157,7 +157,7 @@ function ScheduleTabbed() {
     >
       <Tab.List className="-mx-4 flex gap-x-4 gap-y-10 overflow-x-auto pl-4 pb-4 sm:mx-0 sm:flex-col sm:pb-0 sm:pl-0 sm:pr-8">
         {({ selectedIndex }) =>
-          schedule.reverse.map((day, dayIndex) => (
+          schedule.map((day, dayIndex) => (
             <div
               key={day.dateTime}
               className={clsx(
@@ -177,7 +177,7 @@ function ScheduleTabbed() {
                 }}
               />
             </div>
-          ))
+          )).reverse()
         }
       </Tab.List>
       <Tab.Panels>
@@ -256,7 +256,7 @@ function ScheduleStatic() {
           <DaySummary day={day} />
           <TimeSlots day={day} className="mt-10" />
         </section>
-      ))}
+      )).reverse()}
     </div>
   )
 }
