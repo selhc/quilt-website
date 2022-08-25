@@ -98,7 +98,7 @@ let schedule = [
     ]
   },
   {
-    date: 'August 29th',
+    date: 'August 30th',
     dateTime: '2022-08-29',
     summary:
       "Fourth meeting focused on vendor costs",

@@ -20,7 +20,7 @@ import {
 const solutions = [
   {
     name: 'Meetings',
-    description: 'Transcripts and recordings of QUILT meetings.',
+    description: 'Transcripts, recordings, and agendas of QUILT meetings.',
     href: 'https://meetings.quilt.healthcare',
     icon: UserGroupIcon,
   },
@@ -134,7 +134,7 @@ export function Header() {
             <p>Next Meeting</p>
             <DiamondIcon className="h-1.5 w-1.5 overflow-visible fill-current stroke-current" />
             <p>
-              <time dateTime="2022-08-15">29th of August, 2022</time>
+              <time dateTime="2022-08-15">30th of August, 2022</time>
             </p>
             <DiamondIcon className="h-1.5 w-1.5 overflow-visible fill-current stroke-current" />
             <p>Virtual via Teams</p>
