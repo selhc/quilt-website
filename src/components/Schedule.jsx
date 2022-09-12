@@ -98,10 +98,10 @@ let schedule = [
     ]
   },
   {
-    date: 'August 30th',
-    dateTime: '2022-08-29',
+    date: 'September 12th',
+    dateTime: '2022-09-12',
     summary:
-      "Fourth meeting focused on vendor costs",
+      "Fifth meeting focused on vendor costs",
     timeSlots: [
       {
         name: 'Review Vendor/Actor Matrix for Carequality support',
@@ -126,6 +126,26 @@ let schedule = [
         description: 'None of us is as gullible as all of us!',
         start: '9:45AM',
         end: '10:00AM'
+      }
+    ]
+  },
+  {
+    date: 'August 30th',
+    dateTime: '2022-08-29',
+    summary:
+      "Fourth meeting focused on vendor costs",
+    timeSlots: [
+      {
+        name: 'Review Vendor/Actor Matrix for FHIR support',
+        description: 'October 6th, 2022 deadline for FHIR support',
+        start: '9:00AM',
+        end: '9:15AM',
+      },
+      {
+        name: 'Establish vendor cost quotes for interoperability support in compliance with the 21st Century Cures Act',
+        description: 'Vendor Quotes',
+        start: '9:15AM',
+        end: '9:30AM',
       }
     ]
   }

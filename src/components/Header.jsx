@@ -32,7 +32,7 @@ const solutions = [
   }
 ]
 const callsToAction = [
-  { name: 'View Latest Meeting', href: 'https://meetings.quilt.healthcare/meetings/recordings/august-15th-2022', icon: PlayIcon },
+  { name: 'View Latest Meeting', href: 'https://meetings.quilt.healthcare/meetings/recordings/august-30th-2022', icon: PlayIcon },
   { name: 'Learn About Initiatives', href: '#', icon: CheckCircleIcon },
   { name: 'Contact Taskforce', href: 'https://quilt.healthcare/#footer', icon: PhoneIcon },
 ]
@@ -134,7 +134,7 @@ export function Header() {
             <p>Next Meeting</p>
             <DiamondIcon className="h-1.5 w-1.5 overflow-visible fill-current stroke-current" />
             <p>
-              <time dateTime="2022-08-15">30th of August, 2022</time>
+              <time dateTime="2022-08-15">12th of September, 2022</time>
             </p>
             <DiamondIcon className="h-1.5 w-1.5 overflow-visible fill-current stroke-current" />
             <p>Virtual via Teams</p>
