@@ -98,10 +98,10 @@ let schedule = [
     ]
   },
   {
-    date: 'September 12th',
-    dateTime: '2022-09-12',
+    date: 'August 30th',
+    dateTime: '2022-08-29',
     summary:
-      "Fifth meeting focused on vendor costs",
+      "Fourth meeting focused on vendor costs",
     timeSlots: [
       {
         name: 'Review Vendor/Actor Matrix for Carequality support',
@@ -130,10 +130,10 @@ let schedule = [
     ]
   },
   {
-    date: 'August 30th',
-    dateTime: '2022-08-29',
+    date: 'September 12th',
+    dateTime: '2022-09-12',
     summary:
-      "Fourth meeting focused on vendor costs",
+      "Fifth meeting focused on vendor costs",
     timeSlots: [
       {
         name: 'Review Vendor/Actor Matrix for FHIR support',
