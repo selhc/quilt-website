@@ -130,6 +130,26 @@ let schedule = [
     ]
   },
   {
+    date: 'September 26th',
+    dateTime: '2022-09-26',
+    summary:
+      "Sixth meeting again focused on vendor costs",
+    timeSlots: [
+      {
+        name: 'Review Vendor/Actor Matrix for FHIR support',
+        description: 'October 6th, 2022 deadline for FHIR support',
+        start: '9:00AM',
+        end: '9:15AM',
+      },
+      {
+        name: 'Establish other vendor cost quotes for interoperability support in compliance with the 21st Century Cures Act',
+        description: 'Vendor Quotes',
+        start: '9:15AM',
+        end: '9:30AM',
+      }
+    ]
+  },
+  {
     date: 'September 12th',
     dateTime: '2022-09-12',
     summary:
