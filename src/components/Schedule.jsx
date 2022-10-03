@@ -157,12 +157,38 @@ let schedule = [
     timeSlots: [
       {
         name: 'Review Vendor/Actor Matrix for FHIR support',
-        description: 'October 6th, 2022 deadline for FHIR support',
+        description: 'December 31st, 2022 deadline for FHIR support',
         start: '9:00AM',
         end: '9:15AM',
       },
       {
         name: 'Establish other vendor cost quotes for interoperability support in compliance with the 21st Century Cures Act',
+        description: 'Vendor Quotes',
+        start: '9:15AM',
+        end: '9:30AM',
+      }
+    ]
+  },
+  {
+    date: 'October 10th',
+    dateTime: '2022-10-10',
+    summary:
+      "Seventh meeting focused on public messaging and FHIR support.",
+    timeSlots: [
+      {
+        name: 'Discuss what the group desires for public access to meeting information.',
+        description: 'QUILT infrastructure/governance',
+        start: '9:00AM',
+        end: '9:10AM',
+      },
+      {
+        name: 'Review Vendor/Actor Matrix for FHIR support',
+        description: 'December 31st, 2022 deadline for FHIR support',
+        start: '9:10AM',
+        end: '9:15AM',
+      },
+      {
+        name: 'Finish other vendor cost quotes for interoperability support in compliance with the 21st Century Cures Act',
         description: 'Vendor Quotes',
         start: '9:15AM',
         end: '9:30AM',
