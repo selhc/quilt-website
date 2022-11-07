@@ -194,6 +194,26 @@ let schedule = [
         end: '9:30AM',
       }
     ]
+  },
+  {
+    date: 'November 7th',
+    dateTime: '2022-11-07',
+    summary:
+      "Eigth meeting focused on engaging other stakeholders.",
+    timeSlots: [
+      {
+        name: 'Discuss engaging Whitman County and Gritman.',
+        description: 'Stakeholder Engagement',
+        start: '9:20AM',
+        end: '9:30AM',
+      },
+      {
+        name: 'Onsite collaboration planning.',
+        description: 'Explore real-world interoperability challenges by visiting Actor sites.',
+        start: '9:30AM',
+        end: '9:45AM',
+      }
+    ]
   }
 ]
 
