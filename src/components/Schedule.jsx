@@ -199,7 +199,7 @@ let schedule = [
     date: 'November 7th',
     dateTime: '2022-11-07',
     summary:
-      "Eigth meeting focused on engaging other stakeholders.",
+      "Eighth meeting focused on engaging other stakeholders.",
     timeSlots: [
       {
         name: 'Discuss engaging Whitman County and Gritman.',
