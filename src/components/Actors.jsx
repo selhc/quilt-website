@@ -5,12 +5,16 @@ import logoPrh from '@/images/logos/prh.png'
 import logoSjrmc from '@/images/logos/sjrmc.png'
 import logoSEL from '@/images/logos/sel.png'
 import logoCatalyst from '@/images/logos/catalyst.png'
+import logoPalouseMedical from '@/images/logos/palouse-medical.png'
+import logoTriState from '@/images/logos/tristate.png'
 
 const actors = [
   { name: 'Schweitzer Engineering Laboratories Health Clinic', logo: logoSEL, href: 'https://selhealthclinic.com' },
   { name: 'Pullman Regional Hospital', logo: logoPrh, href: 'https://pullmanregional.org' },
   { name: 'St. Joseph\'s Regional Medical Center', logo: logoSjrmc, href: 'https://sjrmc.org' },
-  { name: 'Catalyst Medical Group', logo: logoCatalyst, href: 'https://catalystmedicalgroup' }
+  { name: 'Catalyst Medical Group', logo: logoCatalyst, href: 'https://catalystmedicalgroup' },
+  { name: 'Palouse Medical', logo: logoPalouseMedical, href: 'https://palousemedical.com' },
+  { name: 'Tri-State Memorial Hospital and Medical Campus', logo: logoTriState, href: 'https://tristatehospital.org' } 
 ]
 
 export function Actors() {

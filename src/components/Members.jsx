@@ -39,8 +39,7 @@ const actors = [
     members: [
       {
         name: 'Cathy Murphy',
-        role: 'Designer at Globex Corporation',
-        image: jaquelinIschImage,
+        role: 'Designer at Globex Corporation'
       }
     ]
   },
@@ -50,8 +49,7 @@ const actors = [
     members: [
       {
         name: 'Kris Peterson',
-        role: 'Interim Director, Information Systems',
-        image: stevenMchailImage,
+        role: 'Interim Director, Information Systems'
       }
     ]
   },
@@ -61,8 +59,7 @@ const actors = [
     members: [
       {
         name: 'Navin Adhikary',
-        role: 'Clinical Analyst Lead',
-        image: stevenMchailImage,
+        role: 'Clinical Analyst Lead'
       }
     ]
   },
@@ -88,8 +85,7 @@ const actors = [
       }, 
       {
         name: 'Sally Briney',
-        role: 'Unknown',
-        image: dianneGuilianelliImage,
+        role: 'Unknown'
       }
     ]
   },
@@ -99,8 +95,7 @@ const actors = [
     members: [
       {
         name: 'Deb Carpenter',
-        role: 'Chief Information Officer',
-        image: dianneGuilianelliImage,
+        role: 'Chief Information Officer'
       }
     ]
   },
@@ -110,8 +105,7 @@ const actors = [
     members: [
       {
         name: 'Theresa Kwate',
-        role: 'Executive Director',
-        image: dianneGuilianelliImage,
+        role: 'Executive Director'
       }
     ]
   }

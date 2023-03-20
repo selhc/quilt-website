@@ -20,7 +20,7 @@ import {
 const solutions = [
   {
     name: 'Meetings',
-    description: 'Transcripts and recordings of QUILT meetings.',
+    description: 'Transcripts, recordings, and agendas of QUILT meetings.',
     href: 'https://meetings.quilt.healthcare',
     icon: UserGroupIcon,
   },
@@ -32,7 +32,7 @@ const solutions = [
   }
 ]
 const callsToAction = [
-  { name: 'View Latest Meeting', href: 'https://meetings.quilt.healthcare/meetings/recordings/july-11th-2022', icon: PlayIcon },
+  { name: 'View Latest Meeting', href: 'https://meetings.quilt.healthcare/meetings/recordings/august-30th-2022', icon: PlayIcon },
   { name: 'Learn About Initiatives', href: '#', icon: CheckCircleIcon },
   { name: 'Contact Taskforce', href: 'https://quilt.healthcare/#footer', icon: PhoneIcon },
 ]

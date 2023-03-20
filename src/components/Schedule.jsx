@@ -6,7 +6,7 @@ import clsx from 'clsx'
 import { Container } from '@/components/Container'
 import backgroundImage from '@/images/background.jpg'
 
-const schedule = [
+let schedule = [
   {
     date: 'July 11th',
     dateTime: '2022-07-11',
@@ -96,6 +96,124 @@ const schedule = [
         end: '10:00AM'
       }
     ]
+  },
+  {
+    date: 'August 30th',
+    dateTime: '2022-08-29',
+    summary:
+      "Fourth meeting focused on vendor costs",
+    timeSlots: [
+      {
+        name: 'Review Vendor/Actor Matrix for Carequality support',
+        description: 'Will vendors commit?',
+        start: '9:00AM',
+        end: '9:15AM',
+      },
+      {
+        name: 'Establish vendor cost quotes for interoperability support in compliance with the 21st Century Cures Act',
+        description: 'Vendor costs',
+        start: '9:15AM',
+        end: '9:30AM',
+      },
+      {
+        name: 'Review Vendor/Actor Matrix',
+        description: 'What EHR\'s are in operation in which organizations',
+        start: '9:30AM',
+        end: '9:45AM'
+      },
+      {
+        name: 'Decide whether to file an information blocking complaint against any vendor charging for interoperability implementation',
+        description: 'None of us is as gullible as all of us!',
+        start: '9:45AM',
+        end: '10:00AM'
+      }
+    ]
+  },
+  {
+    date: 'September 12th',
+    dateTime: '2022-09-12',
+    summary:
+      "Fifth meeting focused on vendor costs",
+    timeSlots: [
+      {
+        name: 'Review Vendor/Actor Matrix for FHIR support',
+        description: 'October 6th, 2022 deadline for FHIR support',
+        start: '9:00AM',
+        end: '9:15AM',
+      },
+      {
+        name: 'Establish vendor cost quotes for interoperability support in compliance with the 21st Century Cures Act',
+        description: 'Vendor Quotes',
+        start: '9:15AM',
+        end: '9:30AM',
+      }
+    ]
+  },
+  {
+    date: 'September 26th',
+    dateTime: '2022-09-26',
+    summary:
+      "Sixth meeting again focused on vendor costs",
+    timeSlots: [
+      {
+        name: 'Review Vendor/Actor Matrix for FHIR support',
+        description: 'December 31st, 2022 deadline for FHIR support',
+        start: '9:00AM',
+        end: '9:15AM',
+      },
+      {
+        name: 'Establish other vendor cost quotes for interoperability support in compliance with the 21st Century Cures Act',
+        description: 'Vendor Quotes',
+        start: '9:15AM',
+        end: '9:30AM',
+      }
+    ]
+  },
+  {
+    date: 'October 10th',
+    dateTime: '2022-10-10',
+    summary:
+      "Seventh meeting focused on public messaging and FHIR support.",
+    timeSlots: [
+      {
+        name: 'Discuss what the group desires for public access to meeting information.',
+        description: 'QUILT infrastructure/governance',
+        start: '9:00AM',
+        end: '9:10AM',
+      },
+      {
+        name: 'Review Vendor/Actor Matrix for FHIR support',
+        description: 'December 31st, 2022 deadline for FHIR support',
+        start: '9:10AM',
+        end: '9:15AM',
+      },
+      {
+        name: 'Finish other vendor cost quotes for interoperability support in compliance with the 21st Century Cures Act',
+        description: 'Vendor Quotes',
+        start: '9:15AM',
+        end: '9:30AM',
+      }
+    ]
+  },
+  {
+    date: 'November 7th',
+    dateTime: '2022-11-07',
+    summary:
+      "Eighth meeting focused on engaging other stakeholders.",
+    timeSlots: [
+      {
+        name: 'Discuss engaging Whitman County and Gritman.',
+        description: 'Stakeholder Engagement',
+        start: '9:20AM',
+        end: '9:30AM',
+      },
+      {
+        name: 'Onsite collaboration planning.',
+        description: 'Explore real-world interoperability challenges by visiting Actor sites.',
+        start: '9:30AM',
+        end: '9:45AM',
+      }
+    ]
   }
 ]
 
@@ -145,7 +263,7 @@ function ScheduleTabbed() {
                 }}
               />
             </div>
-          ))
+          )).reverse()
         }
       </Tab.List>
       <Tab.Panels>
@@ -224,7 +342,7 @@ function ScheduleStatic() {
           <DaySummary day={day} />
           <TimeSlots day={day} className="mt-10" />
         </section>
-      ))}
+      )).reverse()}
     </div>
   )
 }
