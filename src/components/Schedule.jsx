@@ -214,6 +214,32 @@ let schedule = [
         end: '9:45AM',
       }
     ]
+  },
+  {
+    date: 'April 10th',
+    dateTime: '2023-04-10',
+    summary:
+      "Focus on FHIR API",
+    timeSlots: [
+      {
+        name: 'Discuss FHIR API support progress',
+        description: 'FHIR API',
+        start: '9:30AM',
+        end: '9:40AM',
+      },
+      {
+        name: 'PRH Epic interoperability plan',
+        description: 'Explore real-world interoperability challenges with Epic',
+        start: '9:40AM',
+        end: '9:45AM',
+      },
+      {
+        name: 'Vendor real-world testing updates',
+        description: 'Examine any real-world testing results from EHR vendors',
+        start: '9:45AM',
+        end: '10:00AM',
+      }
+    ]
   }
 ]
 
