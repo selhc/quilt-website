@@ -134,7 +134,7 @@ export function Header() {
             <p>Next Meeting</p>
             <DiamondIcon className="h-1.5 w-1.5 overflow-visible fill-current stroke-current" />
             <p>
-              <time dateTime="2022-08-15">15th of August, 2022</time>
+              <time dateTime="2023-04-10">10th of April, 2023</time>
             </p>
             <DiamondIcon className="h-1.5 w-1.5 overflow-visible fill-current stroke-current" />
             <p>Virtual via Teams</p>
